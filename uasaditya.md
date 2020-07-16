@@ -12,8 +12,6 @@
   `pengarang` VARCHAR(45) NOT NULL,
   `jml_buku` INT NOT NULL,
   PRIMARY KEY (`kd_buku`));
-CREATE TABLE `aditya_saputra528`.`buku` (
-);
 
 
 INSERT INTO `aditya_saputra528`.`buku` (`kd_buku`, `judul`, `jenis_buku`, `pengarang`, `jml_buku`) VALUES ('BK001', 'Laskar Pelangi', 'Novel', 'Andrea Hirata', '12');
